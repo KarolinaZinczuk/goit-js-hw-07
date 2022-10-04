@@ -3,7 +3,7 @@ import { galleryItems } from './gallery-items.js';
 
 console.log(galleryItems);
 
-const gallery = document.querySelector("div.gallery");
+const gallery = document.querySelector(".gallery");
 const newGallery = galleryItems
 .map((image)=> `<a class="gallery__item" href="${image.original}">
 <img 
